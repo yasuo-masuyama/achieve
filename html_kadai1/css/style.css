@@ -1,0 +1,193 @@
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    height: 100px;
+}
+
+.header {
+    background-color: #F5B4B3;
+    height: 50px;
+    font-size: 1.5rem;
+}
+
+.logo_image {
+    width: 110px;
+    float: left;
+    margin: 0;
+}
+
+.top_menu li {
+    float: left;
+    width: auto;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.top_menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+.top_menu li a:hover {
+    text-decoration: underline;
+}
+
+ul.top_menu {
+    float: right;
+}
+
+.image_area {
+    width: 100%;
+}
+
+.side_menu li {
+    background-color: #F5B4B3;
+    height: 6rem;
+    margin-bottom: 10px;
+}
+
+.side_menu li a {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 2rem;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner {
+    margin-top: 20px;
+}
+
+.content {
+    width: 660px;
+    margin-left: 20px;
+    float: left;
+    height: 200px;
+    font-size: 1.5rem;
+}
+
+.side_menu {
+    width: 300px;
+    float: left;
+}
+
+.wrapper {
+    margin-top: 10px;
+    padding-bottom: 100px;
+}
+
+.side_menu li:hover {
+    opacity: 0.6;
+}
+.banner :hover {
+    opacity: 0.6;
+}
+
+.news {
+    height: 200px;
+    background-color: #fce8e7;
+    padding: 20px;
+    overflow: scroll;
+    line-height: 2;
+}
+
+.footer {
+background-color: #4d4d4d;
+height: 100px;
+width: 100%;
+position: asolute;
+bottom: 0;
+display: table;
+}
+
+.footer p {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+    min-height: 100%;
+    position: relative;
+}
+
+.banner_content {
+    margin-top: 10px;
+    display: table;
+}
+
+.banner_content p {
+    display: table-cell;
+}
+
+.banner_content p img {
+    width: 100%;
+}
+
+.side_menu .point {
+    background-color: #fcecec;
+}
+
+.side_menu .point a {
+    color: #4d4d4d;
+}
+
+.contact_form {
+    width: 630px;
+    float: left;
+    text-align: center;
+  }
+  
+  .form tr {
+    height: 7rem;
+  }
+  
+  .form th {
+    width: 150px;
+    text-align: right;
+    padding-right: 10px;
+  }
+  
+  input[type="text"],textarea {
+    width: 480px;
+  }
+  
+  .gender {
+    text-align: left;
+  }
+  
+  .submit {
+    background-color: #008b8b;
+    font-size: 3rem;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .submit:hover {
+    opacity: 0.5;
+  }
