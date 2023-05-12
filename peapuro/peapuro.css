@@ -1,0 +1,30 @@
+html{
+    font-size: 62.5%;
+    height: 100%;
+  }
+  
+  body{
+   height: 100%;
+   text-align: center
+  }
+    
+  .header {
+    background-color: #F5B4B3;
+    height: 50px;
+    font-size: 3rem;
+    text-align: center;
+  }
+   .contact {
+    font-size: 2.2rem;
+    text-align: left;
+
+  }
+  .peapuro {
+    height: auto%;
+  }
+
+  .footer {
+    font-size: 3rem;
+    background-color: #F5B4B3;
+    
+  }

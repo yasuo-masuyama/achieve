@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./peapuro.css">
+
+
+  <title>ペアプロ</title>
+</head>
+
+<body>
+    <header class="header">お問い合わせフォーム</header>
+    <img src="./images/contact.png" class="peapuro">
+        <form action="">
+          <table class="contact">
+            <tr>
+               <th>送信先</th>
+               <td>ペアプロ（株） 総務課　増山　浅沼</td>
+            </tr>
+            <tr>
+              <th>お名前</th>
+              <td><input type="text"placeholder="例）山田太郎"></td>
+            </tr>
+            <tr>
+              <th>ご住所</th>
+              <td><input type="text"placeholder="例）岩手県盛岡市"></td>
+            </tr>
+            <tr>
+               <th>電話番号</th>
+               <td><input type="text"placeholder="例）090-3598-8878"></td>
+            </tr>
+            <tr>
+              <th>Eメールアドレス</th>
+              <td><input type="email"placeholder="例）peapuro@gmali.comp"></td>
+            </tr>
+            <tr>
+              <th>Eメールアドレス確認</th>
+              <td><input type="email"placeholder="例）peapuro@gmail.com"></td>
+            </tr>
+            <tr>
+              <th>年代</th>  
+              <td><label for="prefecture"></label>
+                <select name="prefecture">
+                <option value="">選択してください</option>
+                <option value="10代">10代</option>
+                <option value="20代">20代</option>
+                <option value="30代">30代</option>
+                <option value="40代">40代</option>
+                <option value="50代">50代</option>
+                <option value="60代">60代</option>
+                <option value="70代">70代</option>
+                <option value="80代">80代</option>
+                <option value="90代">90代</option>
+                <option value="100代">100代</option>
+                </select></td>
+              
+            </tr>
+            <tr>
+              <th>回答の不要・必要</th>
+              <td>
+                <input type="radio" name="btn-main" onclick="buttonClick()">回答を希望する
+                <input type="radio" name="btn-main" onclick="buttonClick()">回答を希望しない
+              </td>
+            </tr>
+            <tr>
+              <th>お問い合わせ内容</th>
+              <td><textarea name="message"></textarea></td>
+            </tr>
+            <tr>
+              <th></th>
+              <td><input type="submit" value="送信"></td>
+            </tr>
+          </table>
+        </form>
+      </article>
+    </div>
+    <footer class="footer">
+    たくさんのお問い合わせお待ちしております♪
+    </footer>
+</body>
+
+</html>
